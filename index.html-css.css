@@ -1,0 +1,22 @@
+.nyancatgif
+
+img
+
+.figure
+{
+    max-width: 20%;
+    height: auto;
+}
+
+
+.header {
+    background-color: lightblue;
+    height: 120px;
+    width: 960px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.shells {
+    display: inline-block;
+}

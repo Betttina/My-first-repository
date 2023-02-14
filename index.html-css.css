@@ -1,14 +1,39 @@
-.nyancatgif
-
-img
-
-.figure
-{
-    max-width: 20%;
-    height: auto;
+.styled1 {
+    color: hotpink;
+    font-size: 36px;
+    text-align: center;
 }
 
+.nyancat {
+    position: static;
+    display: auto;
+    margin: auto;
+}
 
+.quote {
+    text-align: center;
+    text-emphasis-color: hotpink;
+    border: solid;
+    padding-bottom: unset;
+}
+
+#egenskap {
+    text-align: center;
+    vertical-align: middle;
+    max-width: 250px;
+    line-height: 20px;
+    margin: 0 auto;
+    padding: 30px;
+    text-kashida-space: 30%;
+
+
+}
+
+.bio {
+    padding-top: 30px;
+    padding-left: 100px;
+    background-color: pink;
+}
 .header {
     background-color: lightblue;
     height: 120px;

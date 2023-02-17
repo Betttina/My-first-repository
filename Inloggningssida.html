@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Inloggningssida</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+
+    <div class="login-container">
+      <h2>Logga in</h2>
+      <form>
+        <label for="username">Användarnamn:</label>
+        <input type="text" id="username" name="username" required />
+        <label for="password">Lösenord:</label>
+        <input type="password" id="password" name="password" required />
+        <input type="submit" value="Logga in" />
+      </form>
+    </div>
+<br>
+    <br>
+    <br>
+
+    <div class="register-container">
+      <h2>Registrera nytt konto</h2>
+      <form>
+        <label for="new-username">Användarnamn:</label>
+        <input type="text" id="new-username" name="new-username" required>
+        <label for="new-password">Lösenord:</label>
+        <input type="password" id="new-password" name="new-password" required>
+        <label for="confirm-password">Bekräfta lösenord:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+        <input type="submit" value="Registrera">
+      </form>
+    </div>
+  </body>
+</html>
+
+<style>
+  .login-container, .register-container {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    display: flex;
+    text-align: center;
+  }
+
+
+
+  h2 {
+    text-align: center;
+    margin: unset;
+    padding: 10px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type="submit"] {
+    background-color: #f69729;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  body {
+    background-image: url("https://imgur.com/dtLt94s");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+</style>
